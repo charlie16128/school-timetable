@@ -1,0 +1,30 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px solid black;
+    width: 14.28%;
+    height: 50px;
+    position: relative;
+    text-align: center;
+    vertical-align: top;
+}
+.progress {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 0;
+    width: 100%;
+    background-color: #02F78E;
+    z-index: 1;
+    transition: height 0.2s ease-out;
+}
+.current-time, .next-class {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.past {
+    background-color: #FF7575;
+}
